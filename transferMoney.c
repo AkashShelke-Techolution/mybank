@@ -15,6 +15,9 @@ void transferMoney(double* balance, double* lastTransferAmount)
 	fgets(accountName, sizeof(accountName), stdin);
 	accountName[strcspn(accountName, "\n")] = '\0'; //This removes the newline character from fgets 
 
+	
+
+	
 	printf("Enter recipient's account number: ");
 	scanf("%s", accountNumber);
 

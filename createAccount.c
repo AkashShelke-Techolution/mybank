@@ -10,4 +10,6 @@ void createAccount()
 	printf("Please create an account \nEnter your full name here: ");
 	fgets(fullName, sizeof(fullName), stdin);
 
+
+	
 }
