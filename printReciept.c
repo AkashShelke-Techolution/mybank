@@ -12,6 +12,7 @@
  */
 void printReceipt(const char* transactionType, const char* accountName, const char* accountNumber, const char* bank, double amount, double previousBalance, double currentBalance)
 {
+	
 	//Get current date and time
 	time_t t = time(NULL);
 	struct tm* current_time = localtime(&t);
