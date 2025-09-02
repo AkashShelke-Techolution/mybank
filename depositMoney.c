@@ -15,6 +15,8 @@ void depositMoney(double* balance)
 		return;
 	}
 
+	
+
 	*balance += depositAmount;
 
 	printReceipt("Credit Alert", "N/A", "N/A", "N/A", depositAmount, *balance - depositAmount, *balance);
