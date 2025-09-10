@@ -15,9 +15,6 @@ void depositMoney(double* balance)
 		printf("Invalid deposit amount.\n");
 		return;
 	}
-
-	
-
 	*balance += depositAmount;
 
 	printReceipt("Credit Alert", "N/A", "N/A", "N/A", depositAmount, *balance - depositAmount, *balance);
