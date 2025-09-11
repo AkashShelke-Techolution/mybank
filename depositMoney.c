@@ -5,7 +5,6 @@
  */
 void depositMoney(double* balance)
 {
-	
 	double depositAmount;
 	printf("Enter deposit amount: ");
 	scanf("%lf", &depositAmount);
