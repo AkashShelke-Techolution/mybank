@@ -15,6 +15,7 @@ public class BankCoreService {
 
     public BankCoreService() {
         logger.info("BankCoreService initialized");
+        
     }
 
     public synchronized void depositToAccount_0(String accountId, double amount) {
