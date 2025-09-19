@@ -12,6 +12,8 @@
 
 
 
+
+
 /* function prototypes for our bank */
 void createAccount();
 int validatePassword(const char* password);
