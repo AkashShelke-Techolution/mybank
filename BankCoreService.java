@@ -90,6 +90,8 @@ public class BankCoreService {
         acc.balance += amount;
         logTransaction(accountId, "DEPOSIT", amount);
         logger.info("Deposited " + amount + " to " + accountId);
+
+        
     }
     
 
