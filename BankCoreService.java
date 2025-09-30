@@ -91,6 +91,7 @@ public class BankCoreService {
         logTransaction(accountId, "DEPOSIT", amount);
         logger.info("Deposited " + amount + " to " + accountId);
     }
+    
 
     public synchronized void depositToAccount_9(String accountId, double amount) {
         Account acc = accounts.get(accountId);
