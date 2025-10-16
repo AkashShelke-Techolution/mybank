@@ -9,7 +9,8 @@ import java.util.logging.*;
 public class BankCoreService {
 
     
-
+//Modified by akash for smart sync
+    
     private static final Logger logger = Logger.getLogger(BankCoreService.class.getName());
     private final Map<String, Account> accounts = new ConcurrentHashMap<>();
     private final List<TransactionLog> transactionLogs = new ArrayList<>();
