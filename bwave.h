@@ -11,11 +11,6 @@
 #define MAX_LENGTH 60
 #define MIN_LENGTH 20
 
-
-
-
-
-
 /* function prototypes for our bank */
 void createAccount();
 int validatePassword(const char* password);
