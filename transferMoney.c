@@ -7,7 +7,7 @@
  */
 void transferMoney(double* balance, double* lastTransferAmount)
 {
-	
+	//modified by akash
 	char accountName[MAX_LENGTH], accountNumber[MIN_LENGTH], bank[MAX_LENGTH];
 	double amount;
 
