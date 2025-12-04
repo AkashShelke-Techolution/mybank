@@ -5,9 +5,11 @@
  * @lastTransferAmount: last Transfer Amount.
  * Return: void
  */
+
+ //akash
 void transferMoney(double* balance, double* lastTransferAmount)
 {
-	//modified by akash PROD
+	//modified by akash jitb
 	char accountName[MAX_LENGTH], accountNumber[MIN_LENGTH], bank[MAX_LENGTH];
 	double amount;
 
