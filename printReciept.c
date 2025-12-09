@@ -1,3 +1,5 @@
+//smart sync test on 9th dec
+
 #include "bwave.h"
 /**
  * printReceipt - Prints receipt to receipt.txt file.
