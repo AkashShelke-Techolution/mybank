@@ -1,6 +1,6 @@
 #ifndef BWAVE_H
 #define BWAVE_H
-
+//KT
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
