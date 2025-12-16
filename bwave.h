@@ -5,7 +5,7 @@
 #include <string.h>
 #include <time.h>
 
-//akash
+//akash updated this on 16th dec
 
 /* defining constant for string input */
 #define MAX_LENGTH 60
